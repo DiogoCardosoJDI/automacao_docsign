@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <web>
+        <url>https://powerforms.docusign.net/3f4b13fb-23c9-42c2-b0ab-c8b2f3698c80?env=na2&amp;acct=68f26f24-91ee-4170-9a61-75e6ad8cebab&amp;accountId=68f26f24-91ee-4170-9a61-75e6ad8cebab</url>
+    </web>
+
+    <arquivo_entrada>
+        <excel>arquivo_entrada\dados1.xlsx</excel>
+        <sheet>Planilha1</sheet>
+        <sheet_ingles>Sheet1</sheet_ingles>
+    </arquivo_entrada>
+
+    <diretorio>
+        <download>c:\download_contrato\</download>        
+    </diretorio>
+    
+</config>

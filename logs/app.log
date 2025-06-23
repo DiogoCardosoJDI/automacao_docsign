@@ -1,0 +1,285 @@
+2025-06-18 15:44:17 - INFO - Log configurado com sucesso.
+2025-06-18 15:44:17 - INFO - Iniciando aplicação.
+2025-06-18 15:44:17 - WARNING - Isso é um aviso.
+2025-06-18 15:44:17 - ERROR - Erro simulado.
+2025-06-18 15:45:43 - INFO - Log configurado com sucesso.
+2025-06-18 15:45:43 - INFO - Iniciando aplicação.
+2025-06-18 15:45:43 - WARNING - Isso é um aviso.
+2025-06-18 15:45:43 - ERROR - Erro simulado.
+2025-06-18 15:49:47 - INFO - Log configurado com sucesso.
+2025-06-18 15:49:47 - INFO - Iniciando aplicação.
+2025-06-18 15:49:47 - WARNING - Isso é um aviso.
+2025-06-18 15:49:47 - ERROR - Erro simulado.
+2025-06-18 15:51:21 - INFO - Log configurado com sucesso.
+2025-06-18 15:51:21 - INFO - Iniciando aplicação.
+2025-06-18 15:51:21 - WARNING - Isso é um aviso.
+2025-06-18 15:51:21 - ERROR - Erro simulado.
+2025-06-18 15:51:51 - INFO - Log configurado com sucesso.
+2025-06-18 15:51:51 - INFO - Iniciando aplicação.
+2025-06-18 15:51:51 - WARNING - Isso é um aviso.
+2025-06-18 15:51:51 - ERROR - Erro simulado.
+2025-06-18 15:53:33 - INFO - Log configurado com sucesso.
+2025-06-18 15:53:33 - INFO - Iniciando aplicação.
+2025-06-18 15:53:33 - WARNING - Isso é um aviso.
+2025-06-18 15:53:33 - ERROR - Erro simulado.
+2025-06-18 15:57:42 - INFO - Log configurado com sucesso.
+2025-06-18 15:57:42 - INFO - Iniciando aplicação.
+2025-06-18 15:57:42 - WARNING - Isso é um aviso.
+2025-06-18 15:57:42 - ERROR - Erro simulado.
+2025-06-18 15:57:54 - INFO - ====== WebDriver manager ======
+2025-06-18 15:57:59 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 15:58:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 15:58:01 - INFO - There is no [win64] chromedriver "132.0.6834.159" for browser google-chrome "132.0.6834" in cache
+2025-06-18 15:58:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 15:58:02 - INFO - WebDriver version 132.0.6834.159 selected
+2025-06-18 15:58:02 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-18 15:58:02 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-18 15:58:03 - INFO - Driver downloading response is 200
+2025-06-18 15:58:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 15:58:06 - INFO - Driver has been saved in cache [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-06-18 16:02:38 - INFO - Log configurado com sucesso.
+2025-06-18 16:02:38 - INFO - Iniciando aplicação.
+2025-06-18 16:02:38 - WARNING - Isso é um aviso.
+2025-06-18 16:02:38 - ERROR - Erro simulado.
+2025-06-18 16:02:46 - INFO - ====== WebDriver manager ======
+2025-06-18 16:02:50 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 16:02:51 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 16:02:51 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-18 16:07:55 - INFO - ====== WebDriver manager ======
+2025-06-18 16:07:59 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 16:07:59 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 16:08:00 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-18 17:15:32 - INFO - ====== WebDriver manager ======
+2025-06-18 17:15:36 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:15:37 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:15:38 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-18 17:19:06 - INFO - ====== WebDriver manager ======
+2025-06-18 17:19:10 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:19:10 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:19:11 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-18 17:44:16 - INFO - ====== WebDriver manager ======
+2025-06-18 17:44:20 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:44:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-18 17:44:21 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 12:14:59 - INFO - ====== WebDriver manager ======
+2025-06-20 12:15:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:15:04 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:15:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:15:06 - INFO - WebDriver version 132.0.6834.159 selected
+2025-06-20 12:15:06 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-20 12:15:06 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-20 12:15:07 - INFO - Driver downloading response is 200
+2025-06-20 12:15:09 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:15:09 - INFO - Driver has been saved in cache [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-06-20 12:27:17 - INFO - ====== WebDriver manager ======
+2025-06-20 12:27:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:27:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:27:22 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 12:30:09 - INFO - ====== WebDriver manager ======
+2025-06-20 12:30:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:30:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:30:14 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 12:34:31 - INFO - ====== WebDriver manager ======
+2025-06-20 12:34:36 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:34:36 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:34:37 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 12:41:57 - INFO - ====== WebDriver manager ======
+2025-06-20 12:42:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:42:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 12:42:02 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 13:13:43 - INFO - ====== WebDriver manager ======
+2025-06-20 13:13:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:13:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:13:48 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 13:24:51 - INFO - ====== WebDriver manager ======
+2025-06-20 13:24:55 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:24:56 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:24:57 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 13:31:34 - INFO - ====== WebDriver manager ======
+2025-06-20 13:31:38 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:31:38 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:31:39 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 13:53:32 - INFO - ====== WebDriver manager ======
+2025-06-20 13:53:36 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:53:37 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 13:53:37 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:13:24 - INFO - ====== WebDriver manager ======
+2025-06-20 14:13:28 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:13:29 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:13:29 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:18:08 - INFO - ====== WebDriver manager ======
+2025-06-20 14:18:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:18:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:18:13 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:27:44 - INFO - ====== WebDriver manager ======
+2025-06-20 14:28:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:28:19 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:33:17 - INFO - ====== WebDriver manager ======
+2025-06-20 14:33:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:33:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:33:22 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:37:18 - INFO - ====== WebDriver manager ======
+2025-06-20 14:37:22 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:37:23 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:37:23 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:40:17 - INFO - ====== WebDriver manager ======
+2025-06-20 14:40:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:40:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:40:22 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:45:06 - INFO - ====== WebDriver manager ======
+2025-06-20 14:46:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:46:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:46:01 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:53:36 - INFO - ====== WebDriver manager ======
+2025-06-20 14:53:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:53:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:53:41 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 14:59:42 - INFO - ====== WebDriver manager ======
+2025-06-20 14:59:46 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:59:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 14:59:47 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:02:11 - INFO - ====== WebDriver manager ======
+2025-06-20 15:02:15 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:02:16 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:02:16 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:06:43 - INFO - ====== WebDriver manager ======
+2025-06-20 15:07:17 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:07:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:07:19 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:13:40 - INFO - ====== WebDriver manager ======
+2025-06-20 15:13:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:13:45 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:13:45 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:18:29 - INFO - ====== WebDriver manager ======
+2025-06-20 15:19:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:19:04 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:19:04 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:24:13 - INFO - ====== WebDriver manager ======
+2025-06-20 15:24:16 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:24:17 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:24:18 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:33:05 - INFO - ====== WebDriver manager ======
+2025-06-20 15:33:15 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:33:16 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:33:16 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:37:36 - INFO - ====== WebDriver manager ======
+2025-06-20 15:37:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:37:41 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:37:41 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:47:23 - INFO - ====== WebDriver manager ======
+2025-06-20 15:47:27 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:47:27 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:47:28 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:49:59 - INFO - ====== WebDriver manager ======
+2025-06-20 15:50:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:50:04 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:50:04 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 15:53:03 - INFO - ====== WebDriver manager ======
+2025-06-20 15:53:07 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:53:08 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 15:53:09 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:17:16 - INFO - ====== WebDriver manager ======
+2025-06-20 16:17:49 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:17:50 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:17:50 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:20:43 - INFO - ====== WebDriver manager ======
+2025-06-20 16:20:46 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:20:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:20:47 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:30:08 - INFO - ====== WebDriver manager ======
+2025-06-20 16:30:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:30:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:30:13 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:33:43 - INFO - ====== WebDriver manager ======
+2025-06-20 16:33:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:33:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:33:48 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:40:33 - INFO - ====== WebDriver manager ======
+2025-06-20 16:40:37 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:40:38 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:40:38 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:43:49 - INFO - ====== WebDriver manager ======
+2025-06-20 16:43:53 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:43:54 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:43:54 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 16:54:54 - INFO - ====== WebDriver manager ======
+2025-06-20 16:54:57 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:54:58 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 16:54:59 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 17:02:50 - INFO - ====== WebDriver manager ======
+2025-06-20 17:02:54 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:02:54 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 17:02:55 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 18:23:14 - INFO - ====== WebDriver manager ======
+2025-06-20 18:23:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:23:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:23:19 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 18:34:05 - INFO - ====== WebDriver manager ======
+2025-06-20 18:34:09 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:34:10 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:34:10 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 18:36:24 - INFO - ====== WebDriver manager ======
+2025-06-20 18:36:28 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:36:29 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:36:30 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 18:37:40 - INFO - ====== WebDriver manager ======
+2025-06-20 18:37:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:37:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:37:45 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-20 18:43:12 - INFO - ====== WebDriver manager ======
+2025-06-20 18:43:16 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:43:17 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:43:18 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 13:58:14 - INFO - ====== WebDriver manager ======
+2025-06-21 13:58:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 13:58:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 13:58:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 13:58:21 - INFO - WebDriver version 132.0.6834.159 selected
+2025-06-21 13:58:21 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-21 13:58:21 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-21 13:58:21 - INFO - Driver downloading response is 200
+2025-06-21 13:58:22 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 13:58:23 - INFO - Driver has been saved in cache [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-06-21 14:33:09 - INFO - ====== WebDriver manager ======
+2025-06-21 14:33:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:33:13 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:33:14 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 14:36:54 - INFO - ====== WebDriver manager ======
+2025-06-21 14:36:58 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:36:59 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:37:00 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 14:40:48 - INFO - ====== WebDriver manager ======
+2025-06-21 14:40:51 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:40:52 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:40:52 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 14:42:37 - INFO - ====== WebDriver manager ======
+2025-06-21 14:42:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:42:41 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:42:41 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 14:50:37 - INFO - ====== WebDriver manager ======
+2025-06-21 14:50:41 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:51:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 14:51:03 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-21 15:00:36 - INFO - ====== WebDriver manager ======
+2025-06-21 15:00:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 15:00:41 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-21 15:00:41 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-23 08:04:46 - INFO - ====== WebDriver manager ======
+2025-06-23 08:05:06 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:05:06 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:05:07 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:05:08 - INFO - WebDriver version 132.0.6834.159 selected
+2025-06-23 08:05:08 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-23 08:05:08 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-23 08:05:09 - INFO - Driver downloading response is 200
+2025-06-23 08:05:10 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:05:11 - INFO - Driver has been saved in cache [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-06-23 08:09:59 - INFO - ====== WebDriver manager ======
+2025-06-23 08:10:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:10:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:10:04 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-23 08:16:49 - INFO - ====== WebDriver manager ======
+2025-06-23 08:16:52 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:16:53 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 08:16:53 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
