@@ -283,3 +283,287 @@
 2025-06-23 08:16:52 - INFO - Get LATEST chromedriver version for google-chrome
 2025-06-23 08:16:53 - INFO - Get LATEST chromedriver version for google-chrome
 2025-06-23 08:16:53 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-23 11:07:22 - INFO - Carregando informações de configurações iniciais
+2025-06-23 11:07:28 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-23 11:07:28 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-23 11:07:28 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-23 11:07:28 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-23 11:07:28 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-23 11:07:28 - WARNING - Erro - Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl. - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-23 11:07:28 - ERROR - Erro durante processamento files.leitura_excel - Erro: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-06-23 11:08:00 - INFO - Carregando informações de configurações iniciais
+2025-06-23 11:08:39 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-23 11:08:39 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-23 11:08:39 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-23 11:08:39 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-23 11:08:39 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-23 11:08:40 - WARNING - Erro - Worksheet named 'Planilha1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-23 11:08:40 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-23 11:08:40 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-23 11:08:40 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-23 11:08:40 - INFO - Processando linha 26: Unnamed: 0                                              Elaborar
+Unnamed: 1                                       Marcio Oliveira
+Unnamed: 2                           marcio.oliveira@meta.com.br
+Unnamed: 3                                        Henry Monteiro
+Unnamed: 4                     henry.monteiro@portoseguro.com.br
+Unnamed: 5                                     Henrique Sardelli
+Unnamed: 6                         henrique.sardelli@meta.com.br
+Unnamed: 7                        DALTON LUIZ ELERES DE OLIVEIRA
+Unnamed: 8                   dalton.oliveira@portoseguro.com.br 
+Unnamed: 9                             FERNANDO HENRIQUE CAMILLO
+Unnamed: 10                  fernando.camillo@portoseguro.com.br
+Unnamed: 11                              VICENTE VEIGA CAZAROTTI
+Unnamed: 12                 vicente.cazarotti@portoseguro.com.br
+Unnamed: 13                                                 META
+Unnamed: 14                                      Marcio Oliveira
+Unnamed: 15                          marcio.oliveira@meta.com.br
+Unnamed: 16                                     META_20250305-03
+Unnamed: 17                                   TI-PRT-125/2013-R7
+Unnamed: 18                                                    1
+Unnamed: 19                                  2025-03-05 00:00:00
+Unnamed: 20               Proposta com o novo ratecard para 2025
+Unnamed: 21                                      Marcio Oliveira
+Unnamed: 22                       Dalton Luiz Eleres de Oliveira
+Unnamed: 23                                DARIO VOLNEI YAMACAKE
+Unnamed: 24                                           5425378858
+Unnamed: 25                                      (11) 98399-0790
+Unnamed: 26    [TI-PRT-125/2013-R6]::B.9. Analista de Negócio...
+Unnamed: 27                                                  NaN
+Unnamed: 28                                  2024-12-22 00:00:00
+Unnamed: 29                                               Remoto
+Unnamed: 30                                                   11
+Unnamed: 31                                                   30
+Unnamed: 32                                  2026-01-21 00:00:00
+Unnamed: 33    De acordo com a necessidade da área para o tip...
+Unnamed: 34                                                  Não
+Unnamed: 35                                                  Não
+Unnamed: 36    Dentro da  própria consultoria em outro client...
+Unnamed: 37                                      Marcio Oliveira
+Unnamed: 38                                         18.302.499-0
+Unnamed: 39                                  2025-03-05 00:00:00
+Unnamed: 40                                                  NaN
+A                                                            NaN
+(25, 'A')                                                 Gerado
+Name: 26, dtype: object
+2025-06-23 11:08:40 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-23 11:08:40 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 3, 5, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'DARIO VOLNEI YAMACAKE', 'Unnamed: 24': 5425378858, 'Unnamed: 25': '(11) 98399-0790', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.9. Analista de Negócios / Requisitos::[B.9.1. Sênior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2024, 12, 22, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 1, 21, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': 'Não', 'Unnamed: 36': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 37': 'Marcio Oliveira', 'Unnamed: 38': '18.302.499-0'}
+2025-06-23 11:08:40 - INFO - Iniciando Chrome e acessando URL
+2025-06-23 11:08:40 - INFO - Garantindo que a pasta exista
+2025-06-23 11:08:40 - INFO - Configurando as preferências para o Chrome
+2025-06-23 11:08:40 - INFO - Configurando opções do Chrome
+2025-06-23 11:08:40 - INFO - Criando instância do navegador
+2025-06-23 11:08:40 - INFO - ====== WebDriver manager ======
+2025-06-23 11:08:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 11:08:45 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 11:08:46 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-23 11:08:47 - INFO - Acessando o site
+2025-06-23 11:09:01 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-23 11:09:01 - INFO - Preenchendo Fornecedor
+2025-06-23 11:09:01 - INFO - Preenchendo Analista Observador
+2025-06-23 11:09:02 - INFO - Preenchendo Fornecedor Observador
+2025-06-23 11:09:02 - INFO - Preenchendo Gestor1
+2025-06-23 11:09:03 - INFO - Preenchendo Gestor2
+2025-06-23 11:09:03 - INFO - Preenchendo Gestor3
+2025-06-23 11:09:04 - INFO - Clicando no botão iniciar
+2025-06-23 11:09:04 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-23 11:09:04 - INFO - Tentando localizar o elemento
+2025-06-23 11:09:12 - INFO - Elemento encontrado, retornando 'True'
+2025-06-23 11:09:17 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-23 11:09:17 - INFO - Iniciando segunda parte do preencimento
+2025-06-23 11:09:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:17 - INFO - Campo input 0 preenchido com 'META'
+2025-06-23 11:09:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:18 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-23 11:09:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:18 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-23 11:09:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:18 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-23 11:09:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:18 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-23 11:09:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:18 - INFO - Campo input 6 preenchido com '1'
+2025-06-23 11:09:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:19 - INFO - Campo input 7 preenchido com '05/03/2025'
+2025-06-23 11:09:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:19 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-23 11:09:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:19 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-23 11:09:20 - INFO - Proceurando botões 'Rubricar'
+2025-06-23 11:09:20 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-23 11:09:21 - INFO - Botão 1 clicado com sucesso.
+2025-06-23 11:09:21 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:22 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-23 11:09:22 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:22 - INFO - Campo input 24 preenchido com 'DARIO VOLNEI YAMACAKE'
+2025-06-23 11:09:22 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:22 - INFO - Campo input 25 preenchido com '5425378858'
+2025-06-23 11:09:22 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:22 - INFO - Campo input 26 preenchido com '(11) 98399-0790'
+2025-06-23 11:09:22 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:23 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.9. Analista de Negócios / Requisitos::[B.9.1. Sênior]'
+2025-06-23 11:09:23 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:23 - INFO - Campo input 28 preenchido com '22/12/2024'
+2025-06-23 11:09:23 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:23 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-23 11:09:23 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:23 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-23 11:09:23 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:23 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-23 11:09:23 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:24 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-23 11:09:24 - INFO - Proceurando botões 'Rubricar'
+2025-06-23 11:09:24 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-23 11:09:24 - INFO - Botão 2 clicado com sucesso.
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - WARNING - Erro ao preencher campo 35: Message: element not interactable
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x005A74A3+25091]
+	(No symbol) [0x0052DC04]
+	(No symbol) [0x0040B1E9]
+	(No symbol) [0x00446DA3]
+	(No symbol) [0x00471F0C]
+	(No symbol) [0x00444E44]
+	(No symbol) [0x004721A4]
+	(No symbol) [0x0048B49E]
+	(No symbol) [0x00471CA6]
+	(No symbol) [0x004431D5]
+	(No symbol) [0x0044435D]
+	GetHandleVerifier [0x008A07C3+3142947]
+	GetHandleVerifier [0x008B1A2B+3213195]
+	GetHandleVerifier [0x008AC412+3191154]
+	GetHandleVerifier [0x00648720+685184]
+	(No symbol) [0x00536E1D]
+	(No symbol) [0x00533E18]
+	(No symbol) [0x00533FB6]
+	(No symbol) [0x005266F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - WARNING - Erro ao preencher campo 36: Message: element not interactable
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x005A74A3+25091]
+	(No symbol) [0x0052DC04]
+	(No symbol) [0x0040B1E9]
+	(No symbol) [0x00446DA3]
+	(No symbol) [0x00471F0C]
+	(No symbol) [0x00444E44]
+	(No symbol) [0x004721A4]
+	(No symbol) [0x0048B49E]
+	(No symbol) [0x00471CA6]
+	(No symbol) [0x004431D5]
+	(No symbol) [0x0044435D]
+	GetHandleVerifier [0x008A07C3+3142947]
+	GetHandleVerifier [0x008B1A2B+3213195]
+	GetHandleVerifier [0x008AC412+3191154]
+	GetHandleVerifier [0x00648720+685184]
+	(No symbol) [0x00536E1D]
+	(No symbol) [0x00533E18]
+	(No symbol) [0x00533FB6]
+	(No symbol) [0x005266F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - WARNING - Erro ao preencher campo 37: Message: element not interactable
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x005A74A3+25091]
+	(No symbol) [0x0052DC04]
+	(No symbol) [0x0040B1E9]
+	(No symbol) [0x00446DA3]
+	(No symbol) [0x00471F0C]
+	(No symbol) [0x00444E44]
+	(No symbol) [0x004721A4]
+	(No symbol) [0x0048B49E]
+	(No symbol) [0x00471CA6]
+	(No symbol) [0x004431D5]
+	(No symbol) [0x0044435D]
+	GetHandleVerifier [0x008A07C3+3142947]
+	GetHandleVerifier [0x008B1A2B+3213195]
+	GetHandleVerifier [0x008AC412+3191154]
+	GetHandleVerifier [0x00648720+685184]
+	(No symbol) [0x00536E1D]
+	(No symbol) [0x00533E18]
+	(No symbol) [0x00533FB6]
+	(No symbol) [0x005266F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:25 - INFO - Campo select 57 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-23 11:09:25 - INFO - Proceurando botões 'Rubricar'
+2025-06-23 11:09:25 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-23 11:09:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:26 - INFO - Campo input 59 preenchido com 'Marcio Oliveira'
+2025-06-23 11:09:26 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-23 11:09:26 - INFO - Campo input 60 preenchido com '18.302.499-0'
+2025-06-23 11:09:26 - INFO - Clicando no botão concluir
+2025-06-23 11:09:26 - INFO - Fechando o chrome
+2025-06-23 11:09:28 - INFO - Preenchimento finalizado e PDF gerado, marcando como 'Gerado' na coluna A
+2025-06-23 11:09:28 - INFO - Salvando o arquivo Excel com a alteração na informação da coluna 'A'
+2025-06-23 11:09:28 - INFO - Processando linha 27: Unnamed: 0                                              Elaborar
+Unnamed: 1                                       Marcio Oliveira
+Unnamed: 2                           marcio.oliveira@meta.com.br
+Unnamed: 3                                        Henry Monteiro
+Unnamed: 4                     henry.monteiro@portoseguro.com.br
+Unnamed: 5                                     Henrique Sardelli
+Unnamed: 6                         henrique.sardelli@meta.com.br
+Unnamed: 7                        DALTON LUIZ ELERES DE OLIVEIRA
+Unnamed: 8                   dalton.oliveira@portoseguro.com.br 
+Unnamed: 9                             FERNANDO HENRIQUE CAMILLO
+Unnamed: 10                  fernando.camillo@portoseguro.com.br
+Unnamed: 11                              VICENTE VEIGA CAZAROTTI
+Unnamed: 12                 vicente.cazarotti@portoseguro.com.br
+Unnamed: 13                                                 META
+Unnamed: 14                                      Marcio Oliveira
+Unnamed: 15                          marcio.oliveira@meta.com.br
+Unnamed: 16                                     META_20250305-03
+Unnamed: 17                                   TI-PRT-125/2013-R7
+Unnamed: 18                                                    1
+Unnamed: 19                                  2025-03-05 00:00:00
+Unnamed: 20               Proposta com o novo ratecard para 2025
+Unnamed: 21                                      Marcio Oliveira
+Unnamed: 22                       Dalton Luiz Eleres de Oliveira
+Unnamed: 23                                 DOUGLAS MINORU KONDO
+Unnamed: 24                                       326.017.018-97
+Unnamed: 25                                          11976795217
+Unnamed: 26    [TI-PRT-125/2013-R6]::B.39. Gerente de Projeto...
+Unnamed: 27                                                  NaN
+Unnamed: 28                                  2024-12-22 00:00:00
+Unnamed: 29                                               Remoto
+Unnamed: 30                                                   11
+Unnamed: 31                                                   30
+Unnamed: 32                                  2026-01-21 00:00:00
+Unnamed: 33    De acordo com a necessidade da área para o tip...
+Unnamed: 34                                                  Não
+Unnamed: 35                                                  Não
+Unnamed: 36    Dentro da  própria consultoria em outro client...
+Unnamed: 37                                      Marcio Oliveira
+Unnamed: 38                                         18.302.499-0
+Unnamed: 39                                  2025-03-05 00:00:00
+Unnamed: 40                                                  NaN
+A                                                            NaN
+(25, 'A')                                                 Gerado
+Name: 27, dtype: object
+2025-06-23 11:09:28 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-23 11:09:28 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 3, 5, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'DOUGLAS MINORU KONDO', 'Unnamed: 24': '326.017.018-97', 'Unnamed: 25': 11976795217, 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.39. Gerente de Projetos::[B.39.1. Sênior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2024, 12, 22, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 1, 21, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': 'Não', 'Unnamed: 36': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 37': 'Marcio Oliveira', 'Unnamed: 38': '18.302.499-0'}
+2025-06-23 11:09:28 - INFO - Iniciando Chrome e acessando URL
+2025-06-23 11:09:28 - INFO - Garantindo que a pasta exista
+2025-06-23 11:09:28 - INFO - Configurando as preferências para o Chrome
+2025-06-23 11:09:28 - INFO - Configurando opções do Chrome
+2025-06-23 11:09:28 - INFO - Criando instância do navegador
+2025-06-23 11:09:28 - INFO - ====== WebDriver manager ======
+2025-06-23 11:09:32 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 11:09:32 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 11:09:33 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-23 11:09:34 - INFO - Acessando o site
