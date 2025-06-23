@@ -31,5 +31,6 @@ try:
 
     logger.info("Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados")
     leitura_excel.ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, sheet_ingles, url, pasta_download)
+    
 except Exception as e:
     logger.error(f"Erro durante o processamento - {e}")
