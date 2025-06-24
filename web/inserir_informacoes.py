@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 logger = logging.getLogger(__name__)
 
-def gerar_documento_1(chrome, dados ):
+def gerar_documento_1(chrome, dados):
 
     try:
         timeout = 30
@@ -121,17 +121,17 @@ def gerar_documento_2(chrome, dados):
                     ref_valor += 1
                     valor_input = str(dados[f'Unnamed: {str(ref_valor)}']).strip()
 
-                elif ref_valor in [22, 34, 37] and assina:
+                elif ref_valor in [22, 34] and assina:
                     logger.info("Proceurando botões 'Rubricar'")
                     wait = WebDriverWait(chrome, 10)
                     actions = ActionChains(chrome)
                     wait.until(EC.presence_of_element_located((By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")))
                     botoes_rubricar = chrome.find_elements(By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")
-
+                    
                     logger.info(f"Encontrados {len(botoes_rubricar)} botões 'Rubricar'.")
                     primeiro = True
                     for y, botao in enumerate(botoes_rubricar, start=1):
-                        try:
+                        try: 
                             if botao.is_displayed() and botao.is_enabled():
                                 if ref_valor == 22:
                                     actions.move_to_element(botao).click().perform()
@@ -145,20 +145,32 @@ def gerar_documento_2(chrome, dados):
                                     actions.move_to_element(botao).click().perform()
                                     logger.info(f"Botão {y} clicado com sucesso.")
                                     sleep(0.5)
-                                elif ref_valor == 37:
-                                    if not primeiro:
-                                        primeiro = True
-                                        continue
-                                    elif primeiro:
-                                        primeiro = False
-                                        continue
-                                    actions.move_to_element(botao).click().perform()
-                                    logger.info(f"Botão {y} clicado com sucesso.")
-                                    sleep(0.5)
                             else:
                                 logger.warning(f"Botão {y} não está visível ou habilitado.")
                         except Exception as e:
                             logger.error(f"Erro ao clicar no botão {i}: {e}")
+
+                        assina = False
+                        continue
+                elif ref_valor == 37 and assina:
+                    logger.info("Proceurando botões 'Rubricar'")
+                    wait = WebDriverWait(chrome, 10)
+                    actions = ActionChains(chrome)
+                    wait.until(EC.presence_of_element_located((By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")))
+                    botao_assinar = chrome.find_elements(By.XPATH, "//button[.//div[contains(text(), 'Assinar')]]")
+                    logger.info(f"Encontrados {len(botao_assinar)} botões 'Rubricar'.")
+                    primeiro = True
+                    for t, botao in enumerate(botao_assinar, start=1):
+                        try: 
+                            if botao.is_displayed() and botao.is_enabled():
+                                if ref_valor == 37:
+                                    actions.move_to_element(botao).click().perform()
+                                    logger.info(f"Botão {t} clicado com sucesso.")
+                                    sleep(0.5)
+                                    break
+                        except Exception as e:
+                            logger.error(f"Erro ao clicar no botão {i}: {e}")
+                          
                     assina = False
                     continue
 
@@ -214,7 +226,7 @@ def gerar_documento_2(chrome, dados):
         #btn_concluir.click()
 
         logger.info("Fechando o chrome")
-        chrome.quit()
+        #chrome.quit()
         return chrome
 
     except Exception as e:
