@@ -1,5 +1,6 @@
 import logging
 from time import sleep
+import pandas as pd
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -101,6 +102,12 @@ def gerar_documento_2(chrome, dados):
                     passou = True
                     continue
 
+                elif ref_valor in [45, 52, 59]:
+                    ref_valor += 1
+                    valor_input = str(dados[f'Unnamed: {str(ref_valor)}']).strip()
+                    if valor_input == 'nan':
+                        valor_input = ""
+                
                 elif ref_valor == 19:
                     valor_input = dados[f'Unnamed: {str(ref_valor)}'].strftime('%d/%m/%Y').strip()
 
@@ -113,13 +120,22 @@ def gerar_documento_2(chrome, dados):
                     campo.send_keys("")
                     cont += 1
                     continue
-                elif pular_proximas and cont < 29:                    
-                    cont += 1
-                    continue
+                elif pular_proximas and ref_valor >= 35 and ref_valor <= 37:
+                    if ref_valor < 38:                   
+                        ref_valor += 1
+                        continue
+                    elif pular_proximas:
+                        pular_proximas = False
+                elif pular_proximas and ref_valor >= 39:
+                    if ref_valor < 60:                   
+                        ref_valor += 1
+                        continue
 
                 elif ref_valor == 32:
                     ref_valor += 1
                     valor_input = str(dados[f'Unnamed: {str(ref_valor)}']).strip()
+                    if valor_input == 'nan':
+                        valor_input = ""
 
                 elif ref_valor in [22, 34] and assina:
                     logger.info("Proceurando botões 'Rubricar'")
@@ -133,12 +149,12 @@ def gerar_documento_2(chrome, dados):
                     for y, botao in enumerate(botoes_rubricar, start=1):
                         try: 
                             if botao.is_displayed() and botao.is_enabled():
-                                if ref_valor == 22:
+                                if ref_valor == 22 and assina:
                                     actions.move_to_element(botao).click().perform()
                                     logger.info(f"Botão {y} clicado com sucesso.")
                                     sleep(0.5)
                                     break
-                                elif ref_valor == 34:
+                                elif ref_valor == 34 and assina:
                                     if primeiro:
                                         primeiro = False
                                         continue
@@ -150,29 +166,7 @@ def gerar_documento_2(chrome, dados):
                         except Exception as e:
                             logger.error(f"Erro ao clicar no botão {i}: {e}")
 
-                        assina = False
-                        continue
-                elif ref_valor == 37 and assina:
-                    logger.info("Proceurando botões 'Rubricar'")
-                    wait = WebDriverWait(chrome, 10)
-                    actions = ActionChains(chrome)
-                    wait.until(EC.presence_of_element_located((By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")))
-                    botao_assinar = chrome.find_elements(By.XPATH, "//button[.//div[contains(text(), 'Assinar')]]")
-                    logger.info(f"Encontrados {len(botao_assinar)} botões 'Rubricar'.")
-                    primeiro = True
-                    for t, botao in enumerate(botao_assinar, start=1):
-                        try: 
-                            if botao.is_displayed() and botao.is_enabled():
-                                if ref_valor == 37:
-                                    actions.move_to_element(botao).click().perform()
-                                    logger.info(f"Botão {t} clicado com sucesso.")
-                                    sleep(0.5)
-                                    break
-                        except Exception as e:
-                            logger.error(f"Erro ao clicar no botão {i}: {e}")
-                          
-                    assina = False
-                    continue
+                    assina = False  
 
                 elif ref_valor == 27:
                     ref_valor += 1
@@ -180,6 +174,8 @@ def gerar_documento_2(chrome, dados):
 
                 else:
                     valor_input = str(dados[f'Unnamed: {str(ref_valor)}']).strip()
+                    if valor_input == 'nan':
+                        valor_input = ""
                     assina = True
 
                 logger.info("Verificando se o campo é <select> e realizando tratamento no texto para correta seleção")
@@ -194,11 +190,13 @@ def gerar_documento_2(chrome, dados):
                             valor_input = f'{valor_input.strip()} dias'
                         else:
                             valor_input = f'{valor_input.strip()} dia'
-                    elif ref_valor in [34, 35]:
+                    elif ref_valor in [34, 38]:
                             valor_input = f'{valor_input.strip().upper()}'
-                            if ref_valor == 35 and valor_input == 'NÃO':
+                            if ref_valor in [34, 38] and valor_input == 'NÃO':
                                 pular_proximas = True
-                    elif ref_valor == 36:
+                            else:
+                                pular_proximas = False
+                    elif ref_valor == 60:
                         valor_input = valor_input.replace(' / ' , '/').replace('  ', ' ')
                     try:
                         select = Select(campo)
@@ -208,14 +206,36 @@ def gerar_documento_2(chrome, dados):
                         logger.error(f"Erro ao selecionar opção '{valor_input}' no campo {i}: {e}")
                 else:
                     campo.clear()
-                    campo.send_keys(valor_input)
-                    if ref_valor == 30:
-                        campo.send_keys(valor_input)
+                    if ref_valor in [35, 36, 40, 41, 47, 48, 54, 55]:
+                        if not pd.isna(dados[f'Unnamed: {str(ref_valor)}']):
+                            valor_input = dados[f'Unnamed: {str(ref_valor)}'].strftime('%d/%m/%Y').strip()
+                            campo.send_keys(valor_input)
+                    else:
                         campo.send_keys(valor_input)
                     logger.info(f"Campo input {i} preenchido com '{valor_input}'")
 
                 ref_valor += 1
-                if ref_valor > 38:
+                if ref_valor == 63 and assina:
+                    logger.info("Procurando botões 'Assinar'")
+                    wait = WebDriverWait(chrome, 10)
+                    actions = ActionChains(chrome)
+                    wait.until(EC.presence_of_element_located((By.XPATH, "//button[.//div[contains(text(), 'Assinar')]]")))
+                    botao_assinar = chrome.find_elements(By.XPATH, "//button[.//div[contains(text(), 'Assinar')]]")
+                    logger.info(f"Encontrados {len(botao_assinar)} botões 'Assinar'.")
+                    primeiro = True
+                    for t, botao in enumerate(botao_assinar, start=1):
+                        try: 
+                            if botao.is_displayed() and botao.is_enabled():
+                                if ref_valor == 63:
+                                    actions.move_to_element(botao).click().perform()
+                                    logger.info(f"Botão {t} clicado com sucesso.")
+                                    sleep(0.5)
+                                    break
+                        except Exception as e:
+                            logger.error(f"Erro ao clicar no botão {i}: {e}")
+                          
+                    assina = False
+                elif ref_valor > 64:
                     break
 
             except Exception as e:
@@ -226,7 +246,7 @@ def gerar_documento_2(chrome, dados):
         #btn_concluir.click()
 
         logger.info("Fechando o chrome")
-        #chrome.quit()
+        chrome.quit()
         return chrome
 
     except Exception as e:

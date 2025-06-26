@@ -7,7 +7,7 @@
 
     <arquivo_entrada>
         <excel>arquivo_entrada\dados1.xlsx</excel>
-        <sheet>Planilha1</sheet>
+        <sheet>Plan1</sheet>
         <sheet_ingles>Sheet1</sheet_ingles>
     </arquivo_entrada>
 

@@ -43,7 +43,7 @@ def ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, nome_sheet_ingl
                 logger.info(f"Processando linha {idx}: {row}")
 
                 logger.info("Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)")
-                colunas_interesse = df.columns[1:39]
+                colunas_interesse = df.columns[1:64]
                 dados = {coluna: row[coluna] for coluna in colunas_interesse}
                 logger.info(f"Dados coletados: {dados}")
 
@@ -59,10 +59,37 @@ def ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, nome_sheet_ingl
                 logger.info("Preenchimento finalizado e PDF gerado, marcando como 'Gerado' na coluna A")
                 df.at[idx, 'Unnamed: 0'] = 'Gerado'
 
-                logger.info("Salvando o arquivo Excel com a alteração na informação da coluna 'A'")
+                logger.info("Preenchimento finalizado e PDF gerado, inserindo nome do arquivo na coluna BN")
+                novo_nome = f"PT - {df.at[idx, 'Unnamed: 23']} - {df.at[idx, 'Unnamed: 16']}"
+                novo_nome = identificar_arquivo_baixado(pasta_download, novo_nome)
+                df.at[idx, 'Unnamed: 65'] = str(novo_nome)
+
+                logger.info("Salvando o arquivo Excel com a alteração na informação da coluna 'A' e o nome do arquivo gravado na coluna 'BN")
                 df.to_excel(caminho_arquivo_excel, index=False)
 
         logger.info(f"Arquivo processado e atualizado com sucesso em: {caminho_arquivo_excel}")
 
     except Exception as e:
         logger.error(f"Erro durante processamento {__name__} - Erro: {e}")
+
+def identificar_arquivo_baixado(pasta, novo_nome):
+    #Lista todos os arquivos da pasta com caminhos completos
+    arquivos = [os.path.join(pasta, f) for f in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, f))]
+
+    #Verifica se há arquivos
+    if arquivos:
+        #Encontra o arquivo mais recentemente modificado
+        ultimo_arquivo = max(arquivos, key=os.path.getmtime)
+        #Extrai a extensão (ex: .pdf, .csv, .xlsx, etc.)
+        _, extensao = os.path.splitext(ultimo_arquivo)
+        #Define o novo nome mantendo a extensão
+        novo_nome = novo_nome + extensao
+        #Novo caminho completo
+        novo_caminho = os.path.join(pasta, novo_nome)
+        #Renomear
+        os.rename(ultimo_arquivo, novo_caminho)
+        
+        logger.info("Arquivo renomeado", novo_caminho)
+        return novo_nome
+    else:
+        logger.info("Nenhum arquivo encontrado na pasta.")
