@@ -86,6 +86,7 @@ def gerar_documento_1(chrome, dados):
 def gerar_documento_2(chrome, dados):
     try:
         logger.info("Iniciando segunda parte do preencimento")
+        timeout = 30
         campos = chrome.find_elements(By.XPATH, "//*[starts-with(@id, 'tab-form-element')]")
         opcoes = ['Disponível no mercado', 'Outra consultoria que atua na Porto', 'Outra consultoria que não atua na Porto', 'Dentro da própria consultoria em outro cliente/projeto']
         ref_valor = 13
@@ -142,7 +143,7 @@ def gerar_documento_2(chrome, dados):
 
                 elif ref_valor in [22, 34] and assina:
                     logger.info("Proceurando botões 'Rubricar'")
-                    wait = WebDriverWait(chrome, 10)
+                    wait = WebDriverWait(chrome, 30)
                     actions = ActionChains(chrome)
                     wait.until(EC.presence_of_element_located((By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")))
                     botoes_rubricar = chrome.find_elements(By.XPATH, "//button[.//div[contains(text(), 'Rubricar')]]")
@@ -220,6 +221,9 @@ def gerar_documento_2(chrome, dados):
                         if not pd.isna(dados[f'Unnamed: {str(ref_valor)}']):
                             valor_input = dados[f'Unnamed: {str(ref_valor)}'].strftime('%d/%m/%Y').strip()
                             campo.send_keys(valor_input)
+                    elif ref_valor in [61,62]:
+                        valor_input = dados[f'Unnamed: {str(ref_valor)}'].strip()
+                        campo.send_keys(valor_input)
                     else:
                         campo.send_keys(valor_input)
                     logger.info(f"Campo input {i} preenchido com '{valor_input}'")
@@ -252,10 +256,32 @@ def gerar_documento_2(chrome, dados):
                 logger.warning(f"Erro ao preencher campo {i}: {e}")
 
         logger.info("Clicando no botão concluir")
-        btn_concluir = chrome.find_elements(By.XPATH, '//*[@id="end-of-document-btn-finish"]')
-        #btn_concluir.click()
-
-        logger.info("Fechando o chrome")
+        try:
+            logger.error(f"Clicando no botao concluir como objeto: {e}")
+            btn_concluir = WebDriverWait(chrome, timeout).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="end-of-document-btn-finish"]')))
+            btn_concluir.click()
+        except Exception as e:
+            logger.error(f"Erro ao clicar no botao concluir como lista: {e}")
+            btn_concluir = WebDriverWait(chrome, timeout).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="end-of-document-btn-finish"]')))
+            btn_concluir[0].click()
+        
+        try:
+            logger.error(f"Clicar no botao baixar como objeto: {e}")
+            btn_baixar = WebDriverWait(chrome, timeout).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="ModalContainer"]/div[2]/div[2]/div/div/div[3]/button[1]')))
+            btn_baixar.click()
+        except Exception as e:
+            logger.error(f"Erro ao clicar no botao baixar como lista: {e}")
+            btn_baixar = WebDriverWait(chrome, timeout).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@id="ModalContainer"]/div[2]/div[2]/div/div/div[3]/button[1]')))
+            btn_baixar[0].click()
+        
+        sleep(7)
+        
+        logger.info("Arquivo baixado, fechando o chrome")
+        logger.info("Chrome fechado")
         chrome.quit()        
 
     except Exception as e:
