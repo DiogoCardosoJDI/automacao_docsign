@@ -9,7 +9,7 @@ from web import inserir_informacoes, acessar_docsign
 
 logger = logging.getLogger(__name__)
 
-def ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, nome_sheet_ingles, url, pasta_download):
+def ler_excel_e_inserir_dados(caminho_arquivo_excel, caminho_arquivo_excel_novo, nome_sheet, nome_sheet_ingles, url, pasta_download):
     try:
         logger.info("Abrindo o arquivo Excel para realizar a leitura das informações")
         try:
@@ -65,7 +65,8 @@ def ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, nome_sheet_ingl
                 df.at[idx, 'Unnamed: 65'] = str(novo_nome)
 
                 logger.info("Salvando o arquivo Excel com a alteração na informação da coluna 'A' e o nome do arquivo gravado na coluna 'BN")
-                df.to_excel(caminho_arquivo_excel, index=False)
+                #df.to_excel(caminho_arquivo_excel, index=False)
+                df.to_excel(caminho_arquivo_excel_novo, index=False)
 
         logger.info(f"Arquivo processado e atualizado com sucesso em: {caminho_arquivo_excel}")
 

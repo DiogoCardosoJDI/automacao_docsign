@@ -10142,3 +10142,1530 @@ Stacktrace:
 2025-06-26 14:15:21 - INFO - Preenchimento finalizado e PDF gerado, marcando como 'Gerado' na coluna A
 2025-06-26 14:15:27 - INFO - Preenchimento finalizado e PDF gerado, inserindo nome do arquivo na coluna BN
 2025-06-26 14:16:17 - INFO - Salvando o arquivo Excel com a alteração na informação da coluna 'A' e o nome do arquivo gravado na coluna 'BN
+2025-06-27 10:21:54 - INFO - Carregando informações de configurações iniciais
+2025-06-27 10:21:54 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 10:21:54 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 10:21:54 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 10:21:54 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 10:21:54 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 10:21:54 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 10:21:54 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 10:21:54 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 10:21:54 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 10:21:54 - INFO - Processando linha 54: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 54, Length: 66, dtype: object
+2025-06-27 10:21:54 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:21:54 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'GERALDO CESAR DA SILVA JUNIOR', 'Unnamed: 24': 1331068100, 'Unnamed: 25': '(62) 98137-8858', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.38. DevSecOps::[B.38.2. Pleno]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Sim', 'Unnamed: 35': datetime.datetime(2024, 5, 11, 0, 0), 'Unnamed: 36': datetime.datetime(2024, 6, 11, 0, 0), 'Unnamed: 37': 'Marcio Teste teste', 'Unnamed: 38': 'Sim', 'Unnamed: 39': 'META', 'Unnamed: 40': datetime.datetime(2024, 5, 11, 0, 0), 'Unnamed: 41': datetime.datetime(2024, 6, 11, 0, 0), 'Unnamed: 42': 'Alocação', 'Unnamed: 43': 'Henrique Sardelli', 'Unnamed: 44': 'Gestor', 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:21:54 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:21:54 - INFO - Garantindo que a pasta exista
+2025-06-27 10:21:54 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:21:54 - INFO - Configurando opções do Chrome
+2025-06-27 10:21:54 - INFO - Criando instância do navegador
+2025-06-27 10:21:54 - INFO - ====== WebDriver manager ======
+2025-06-27 10:21:59 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:22:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:22:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:22:02 - INFO - WebDriver version 132.0.6834.159 selected
+2025-06-27 10:22:02 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-27 10:22:02 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-06-27 10:22:03 - INFO - Driver downloading response is 200
+2025-06-27 10:22:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:22:04 - INFO - Driver has been saved in cache [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-06-27 10:22:06 - INFO - Acessando o site
+2025-06-27 10:22:23 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 10:22:23 - INFO - Preenchendo Fornecedor
+2025-06-27 10:22:24 - INFO - Preenchendo Analista Observador
+2025-06-27 10:22:25 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 10:22:25 - INFO - Preenchendo Gestor1
+2025-06-27 10:22:26 - INFO - Preenchendo Gestor2
+2025-06-27 10:22:27 - INFO - Preenchendo Gestor3
+2025-06-27 10:22:27 - INFO - Clicando no botão iniciar
+2025-06-27 10:22:27 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 10:22:27 - INFO - Tentando localizar o elemento
+2025-06-27 10:22:37 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 10:22:43 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 10:22:43 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 10:22:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:43 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 10:22:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:43 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 10:22:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:43 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 10:22:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:44 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 10:22:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:44 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 10:22:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:44 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 10:22:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:44 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 10:22:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:45 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 10:22:45 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:45 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 10:22:46 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:22:46 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:22:47 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:22:47 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:47 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:22:47 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:48 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 10:22:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:48 - INFO - Campo input 24 preenchido com 'GERALDO CESAR DA SILVA JUNIOR'
+2025-06-27 10:22:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:48 - INFO - Campo input 25 preenchido com '1331068100'
+2025-06-27 10:22:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:49 - INFO - Campo input 26 preenchido com '(62) 98137-8858'
+2025-06-27 10:22:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:49 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.38. DevSecOps::[B.38.2. Pleno]'
+2025-06-27 10:22:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:49 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 10:22:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:50 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 10:22:50 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:50 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-27 10:22:50 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:50 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-27 10:22:50 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:50 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 10:22:50 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:22:50 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:22:51 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 10:22:51 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:51 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:22:51 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:51 - INFO - Campo select 34 preenchido com 'SIM'
+2025-06-27 10:22:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:52 - INFO - Campo input 35 preenchido com '11/05/2024'
+2025-06-27 10:22:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:52 - INFO - Campo input 36 preenchido com '11/06/2024'
+2025-06-27 10:22:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:52 - INFO - Campo input 37 preenchido com 'Marcio Teste teste'
+2025-06-27 10:22:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:52 - INFO - Campo select 38 preenchido com 'SIM'
+2025-06-27 10:22:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:53 - INFO - Campo input 39 preenchido com 'META'
+2025-06-27 10:22:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:53 - INFO - Campo input 40 preenchido com '11/05/2024'
+2025-06-27 10:22:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:53 - INFO - Campo input 41 preenchido com '11/06/2024'
+2025-06-27 10:22:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:53 - INFO - Campo select 42 preenchido com 'Alocação'
+2025-06-27 10:22:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:53 - INFO - Campo input 43 preenchido com 'Henrique Sardelli'
+2025-06-27 10:22:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 44 preenchido com 'Gestor'
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 45 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 46 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 47 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - ERROR - Erro ao selecionar opção '' no campo 48: Message: Could not locate element with visible text: ; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 49 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 50 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 51 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 52 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 53 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - ERROR - Erro ao selecionar opção '' no campo 54: Message: Could not locate element with visible text: ; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 55 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo input 56 preenchido com ''
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:54 - INFO - Campo select 57 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:22:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:55 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:22:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:55 - INFO - Campo input 59 preenchido com 'Marcio Oliveira'
+2025-06-27 10:22:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:55 - INFO - Campo input 60 preenchido com '18.302.499-0'
+2025-06-27 10:22:55 - INFO - Procurando botões 'Assinar'
+2025-06-27 10:22:55 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 10:22:56 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:22:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:22:56 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:22:56 - INFO - Clicando no botão concluir
+2025-06-27 10:22:56 - INFO - Fechando o chrome
+2025-06-27 10:23:59 - INFO - Preenchimento finalizado e PDF gerado, marcando como 'Gerado' na coluna A
+2025-06-27 10:24:01 - INFO - Preenchimento finalizado e PDF gerado, inserindo nome do arquivo na coluna BN
+2025-06-27 10:24:08 - INFO - Salvando o arquivo Excel com a alteração na informação da coluna 'A' e o nome do arquivo gravado na coluna 'BN
+2025-06-27 10:31:08 - INFO - Carregando informações de configurações iniciais
+2025-06-27 10:31:08 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 10:31:08 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 10:31:08 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 10:31:08 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 10:31:08 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 10:31:09 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 10:31:09 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 10:31:09 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 10:31:09 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 10:31:09 - INFO - Processando linha 54: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 54, Length: 66, dtype: object
+2025-06-27 10:31:09 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:31:09 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'GERALDO CESAR DA SILVA JUNIOR', 'Unnamed: 24': 1331068100, 'Unnamed: 25': '(62) 98137-8858', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.38. DevSecOps::[B.38.2. Pleno]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 7, 'Unnamed: 31': 12, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:31:09 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:31:09 - INFO - Garantindo que a pasta exista
+2025-06-27 10:31:09 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:31:09 - INFO - Configurando opções do Chrome
+2025-06-27 10:31:09 - INFO - Criando instância do navegador
+2025-06-27 10:31:09 - INFO - ====== WebDriver manager ======
+2025-06-27 10:31:54 - INFO - Carregando informações de configurações iniciais
+2025-06-27 10:31:54 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 10:31:54 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 10:31:54 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 10:31:54 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 10:31:54 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 10:31:55 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 10:31:55 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 10:31:55 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 10:31:55 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 10:31:55 - INFO - Processando linha 54: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 54, Length: 66, dtype: object
+2025-06-27 10:31:55 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:31:55 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'GERALDO CESAR DA SILVA JUNIOR', 'Unnamed: 24': 1331068100, 'Unnamed: 25': '(62) 98137-8858', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.38. DevSecOps::[B.38.2. Pleno]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 7, 'Unnamed: 31': 12, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:31:55 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:31:55 - INFO - Garantindo que a pasta exista
+2025-06-27 10:31:55 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:31:55 - INFO - Configurando opções do Chrome
+2025-06-27 10:31:55 - INFO - Criando instância do navegador
+2025-06-27 10:31:55 - INFO - ====== WebDriver manager ======
+2025-06-27 10:32:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:32:04 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:32:05 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:32:06 - INFO - Acessando o site
+2025-06-27 10:32:24 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 10:32:24 - INFO - Preenchendo Fornecedor
+2025-06-27 10:32:25 - INFO - Preenchendo Analista Observador
+2025-06-27 10:32:25 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 10:32:26 - INFO - Preenchendo Gestor1
+2025-06-27 10:32:27 - INFO - Preenchendo Gestor2
+2025-06-27 10:32:27 - INFO - Preenchendo Gestor3
+2025-06-27 10:32:28 - INFO - Clicando no botão iniciar
+2025-06-27 10:32:28 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 10:32:28 - INFO - Tentando localizar o elemento
+2025-06-27 10:32:37 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 10:32:42 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 10:32:42 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 10:32:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:43 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 10:32:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:43 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 10:32:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:43 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 10:32:43 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:44 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 10:32:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:44 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 10:32:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:44 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 10:32:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:44 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 10:32:44 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:45 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 10:32:45 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:45 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 10:32:46 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:32:46 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:32:47 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:32:47 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:47 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:32:47 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:48 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 10:32:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:48 - INFO - Campo input 24 preenchido com 'GERALDO CESAR DA SILVA JUNIOR'
+2025-06-27 10:32:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:48 - INFO - Campo input 25 preenchido com '1331068100'
+2025-06-27 10:32:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:48 - INFO - Campo input 26 preenchido com '(62) 98137-8858'
+2025-06-27 10:32:48 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:49 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.38. DevSecOps::[B.38.2. Pleno]'
+2025-06-27 10:32:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:49 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 10:32:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:49 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 10:32:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:49 - INFO - Campo select 30 preenchido com '7 Meses'
+2025-06-27 10:32:49 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:50 - INFO - Campo select 31 preenchido com '12 dias'
+2025-06-27 10:32:50 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:50 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 10:32:50 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:32:50 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:32:51 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 10:32:51 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:51 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:32:51 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:51 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-27 10:32:51 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:52 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-27 10:32:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:52 - INFO - Campo input 45 preenchido com ''
+2025-06-27 10:32:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:52 - INFO - Campo input 51 preenchido com ''
+2025-06-27 10:32:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:52 - INFO - Campo select 57 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:32:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:52 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:32:52 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:53 - INFO - Campo input 59 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:32:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:54 - INFO - Campo input 60 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:32:54 - INFO - Procurando botões 'Assinar'
+2025-06-27 10:32:54 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 10:32:54 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:32:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:32:55 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:32:55 - INFO - Clicando no botão concluir
+2025-06-27 10:32:55 - INFO - Fechando o chrome
+2025-06-27 10:33:37 - INFO - Preenchimento finalizado e PDF gerado, marcando como 'Gerado' na coluna A
+2025-06-27 10:33:42 - INFO - Preenchimento finalizado e PDF gerado, inserindo nome do arquivo na coluna BN
+2025-06-27 10:33:42 - INFO - Salvando o arquivo Excel com a alteração na informação da coluna 'A' e o nome do arquivo gravado na coluna 'BN
+2025-06-27 10:33:42 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 10:33:42 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:33:42 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:33:42 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:33:42 - INFO - Garantindo que a pasta exista
+2025-06-27 10:33:42 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:33:42 - INFO - Configurando opções do Chrome
+2025-06-27 10:33:42 - INFO - Criando instância do navegador
+2025-06-27 10:33:42 - INFO - ====== WebDriver manager ======
+2025-06-27 10:33:46 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:33:47 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:38:34 - INFO - Carregando informações de configurações iniciais
+2025-06-27 10:38:34 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 10:38:34 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 10:38:34 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 10:38:34 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 10:38:34 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 10:38:35 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 10:38:35 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 10:38:35 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 10:38:35 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 10:38:35 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 10:38:35 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:38:35 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Dentro da  própria consultoria em outro cliente / projeto', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:38:35 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:38:35 - INFO - Garantindo que a pasta exista
+2025-06-27 10:38:35 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:38:35 - INFO - Configurando opções do Chrome
+2025-06-27 10:38:35 - INFO - Criando instância do navegador
+2025-06-27 10:38:35 - INFO - ====== WebDriver manager ======
+2025-06-27 10:38:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:38:41 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:38:41 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:38:43 - INFO - Acessando o site
+2025-06-27 10:39:00 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 10:39:00 - INFO - Preenchendo Fornecedor
+2025-06-27 10:39:01 - INFO - Preenchendo Analista Observador
+2025-06-27 10:39:02 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 10:39:02 - INFO - Preenchendo Gestor1
+2025-06-27 10:39:03 - INFO - Preenchendo Gestor2
+2025-06-27 10:39:04 - INFO - Preenchendo Gestor3
+2025-06-27 10:39:04 - INFO - Clicando no botão iniciar
+2025-06-27 10:39:04 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 10:39:04 - INFO - Tentando localizar o elemento
+2025-06-27 10:39:14 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 10:39:19 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 10:39:19 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 10:39:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:19 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 10:39:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:19 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 10:39:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:20 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 10:39:20 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:20 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 10:39:20 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:20 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 10:39:20 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:21 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 10:39:21 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:21 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 10:39:21 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:21 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 10:39:21 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:21 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 10:39:23 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:39:23 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:39:23 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:39:24 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:24 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:39:24 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:24 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 10:39:24 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:24 - INFO - Campo input 24 preenchido com 'PEDRO HENRIQUE VITORINO DOS SANTOS'
+2025-06-27 10:39:24 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:25 - INFO - Campo input 25 preenchido com '50355992809'
+2025-06-27 10:39:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:25 - INFO - Campo input 26 preenchido com '(13) 99209-4565'
+2025-06-27 10:39:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:25 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]'
+2025-06-27 10:39:25 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:26 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 10:39:26 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:26 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 10:39:26 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:26 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-27 10:39:26 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:26 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-27 10:39:26 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:27 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 10:39:27 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:39:27 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:39:27 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 10:39:27 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - INFO - Campo input 45 preenchido com ''
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - INFO - Campo input 51 preenchido com ''
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - INFO - Campo select 57 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:28 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:39:28 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:29 - INFO - Campo input 59 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:39:29 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:29 - INFO - Campo input 60 preenchido com 'Dentro da própria consultoria em outro cliente/projeto'
+2025-06-27 10:39:29 - INFO - Procurando botões 'Assinar'
+2025-06-27 10:39:29 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 10:39:30 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:39:30 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:39:30 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:39:30 - INFO - Clicando no botão concluir
+2025-06-27 10:39:30 - INFO - Fechando o chrome
+2025-06-27 10:43:20 - INFO - Carregando informações de configurações iniciais
+2025-06-27 10:43:20 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 10:43:20 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 10:43:20 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 10:43:20 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 10:43:20 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 10:43:21 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 10:43:21 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 10:43:21 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 10:43:21 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 10:43:21 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 10:43:21 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 10:43:21 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Disponível no Mercado', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 10:43:21 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 10:43:21 - INFO - Garantindo que a pasta exista
+2025-06-27 10:43:21 - INFO - Configurando as preferências para o Chrome
+2025-06-27 10:43:21 - INFO - Configurando opções do Chrome
+2025-06-27 10:43:21 - INFO - Criando instância do navegador
+2025-06-27 10:43:21 - INFO - ====== WebDriver manager ======
+2025-06-27 10:43:29 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:43:29 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:43:30 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:43:31 - INFO - Acessando o site
+2025-06-27 10:43:49 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 10:43:49 - INFO - Preenchendo Fornecedor
+2025-06-27 10:43:50 - INFO - Preenchendo Analista Observador
+2025-06-27 10:43:51 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 10:43:51 - INFO - Preenchendo Gestor1
+2025-06-27 10:43:52 - INFO - Preenchendo Gestor2
+2025-06-27 10:43:53 - INFO - Preenchendo Gestor3
+2025-06-27 10:43:53 - INFO - Clicando no botão iniciar
+2025-06-27 10:43:53 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 10:43:53 - INFO - Tentando localizar o elemento
+2025-06-27 10:44:03 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 10:44:08 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 10:44:08 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 10:44:08 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:09 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 10:44:09 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:09 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 10:44:09 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:09 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 10:44:09 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:10 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 10:44:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:10 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 10:44:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:10 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 10:44:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:10 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 10:44:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:11 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 10:44:11 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:11 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 10:44:12 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:44:12 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:44:12 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:44:13 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:13 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:44:13 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:13 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 10:44:13 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:14 - INFO - Campo input 24 preenchido com 'PEDRO HENRIQUE VITORINO DOS SANTOS'
+2025-06-27 10:44:14 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:14 - INFO - Campo input 25 preenchido com '50355992809'
+2025-06-27 10:44:14 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:14 - INFO - Campo input 26 preenchido com '(13) 99209-4565'
+2025-06-27 10:44:14 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:15 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]'
+2025-06-27 10:44:15 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:15 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 10:44:15 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:15 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 10:44:15 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:15 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-27 10:44:15 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:15 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-27 10:44:15 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:16 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 10:44:16 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 10:44:16 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 10:44:16 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - INFO - Campo input 45 preenchido com ''
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - INFO - Campo input 51 preenchido com ''
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - ERROR - Erro ao selecionar opção 'Disponível no Mercado' no campo 57: Message: Could not locate element with visible text: Disponível no Mercado; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:17 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:44:17 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:18 - INFO - Campo input 59 preenchido com 'Disponível no Mercado'
+2025-06-27 10:44:18 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:18 - INFO - Campo input 60 preenchido com 'Disponível no Mercado'
+2025-06-27 10:44:18 - INFO - Procurando botões 'Assinar'
+2025-06-27 10:44:18 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 10:44:18 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 10:44:19 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 10:44:19 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 10:44:19 - INFO - Clicando no botão concluir
+2025-06-27 10:44:19 - INFO - Fechando o chrome
+2025-06-27 11:04:13 - INFO - Carregando informações de configurações iniciais
+2025-06-27 11:04:13 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 11:04:13 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 11:04:13 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 11:04:13 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 11:04:13 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 11:04:14 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 11:04:14 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 11:04:14 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 11:04:14 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 11:04:14 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 11:04:14 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 11:04:14 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Disponível no Mercado', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 11:04:14 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 11:04:14 - INFO - Garantindo que a pasta exista
+2025-06-27 11:04:14 - INFO - Configurando as preferências para o Chrome
+2025-06-27 11:04:14 - INFO - Configurando opções do Chrome
+2025-06-27 11:04:14 - INFO - Criando instância do navegador
+2025-06-27 11:04:14 - INFO - ====== WebDriver manager ======
+2025-06-27 11:04:17 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:04:18 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:04:19 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 11:04:20 - INFO - Acessando o site
+2025-06-27 11:04:39 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 11:04:39 - INFO - Preenchendo Fornecedor
+2025-06-27 11:04:39 - INFO - Preenchendo Analista Observador
+2025-06-27 11:04:40 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 11:04:40 - INFO - Preenchendo Gestor1
+2025-06-27 11:04:41 - INFO - Preenchendo Gestor2
+2025-06-27 11:04:41 - INFO - Preenchendo Gestor3
+2025-06-27 11:04:42 - INFO - Clicando no botão iniciar
+2025-06-27 11:04:42 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 11:04:42 - INFO - Tentando localizar o elemento
+2025-06-27 11:04:51 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 11:04:56 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 11:04:56 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 11:04:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:57 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 11:04:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:57 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 11:04:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:57 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 11:04:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:57 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 11:04:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:58 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 11:04:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:58 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 11:04:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:58 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 11:04:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:58 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 11:04:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:04:58 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 11:04:59 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 11:04:59 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 11:05:00 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 11:05:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:00 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:05:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:01 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 11:05:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:01 - INFO - Campo input 24 preenchido com 'PEDRO HENRIQUE VITORINO DOS SANTOS'
+2025-06-27 11:05:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:01 - INFO - Campo input 25 preenchido com '50355992809'
+2025-06-27 11:05:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:01 - INFO - Campo input 26 preenchido com '(13) 99209-4565'
+2025-06-27 11:05:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:02 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]'
+2025-06-27 11:05:02 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:02 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 11:05:02 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:02 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 11:05:02 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:02 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-27 11:05:02 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:02 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-27 11:05:02 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:03 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 11:05:03 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 11:05:03 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 11:05:03 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - INFO - Campo input 45 preenchido com ''
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - INFO - Campo input 51 preenchido com ''
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - ERROR - Erro ao selecionar opção 'Disponível no Mercado' no campo 57: Message: Could not locate element with visible text: Disponível no Mercado; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:04 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:05:04 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:05 - INFO - Campo input 59 preenchido com 'Disponível no Mercado'
+2025-06-27 11:05:05 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:05 - INFO - Campo input 60 preenchido com 'Disponível no Mercado'
+2025-06-27 11:05:05 - INFO - Procurando botões 'Assinar'
+2025-06-27 11:05:05 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 11:05:05 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 11:05:06 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:05:06 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:05:06 - INFO - Clicando no botão concluir
+2025-06-27 11:05:06 - INFO - Fechando o chrome
+2025-06-27 11:27:18 - INFO - Carregando informações de configurações iniciais
+2025-06-27 11:27:18 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 11:27:18 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 11:27:18 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 11:27:18 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 11:27:18 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 11:27:18 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 11:27:19 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 11:27:19 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 11:27:19 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 11:27:19 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 11:27:19 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 11:27:19 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Disponível no Mercado', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 11:27:19 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 11:27:19 - INFO - Garantindo que a pasta exista
+2025-06-27 11:27:19 - INFO - Configurando as preferências para o Chrome
+2025-06-27 11:27:19 - INFO - Configurando opções do Chrome
+2025-06-27 11:27:19 - INFO - Criando instância do navegador
+2025-06-27 11:27:19 - INFO - ====== WebDriver manager ======
+2025-06-27 11:27:22 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:27:23 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:27:23 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 11:27:25 - INFO - Acessando o site
+2025-06-27 11:27:40 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 11:27:40 - INFO - Preenchendo Fornecedor
+2025-06-27 11:27:40 - INFO - Preenchendo Analista Observador
+2025-06-27 11:27:41 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 11:27:41 - INFO - Preenchendo Gestor1
+2025-06-27 11:27:41 - INFO - Preenchendo Gestor2
+2025-06-27 11:27:42 - INFO - Preenchendo Gestor3
+2025-06-27 11:27:42 - INFO - Clicando no botão iniciar
+2025-06-27 11:27:42 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 11:27:42 - INFO - Tentando localizar o elemento
+2025-06-27 11:27:50 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 11:27:55 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 11:27:55 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 11:27:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:56 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 11:27:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:56 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 11:27:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:56 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 11:27:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:56 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 11:27:56 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:57 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 11:27:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:57 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 11:27:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:57 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 11:27:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:57 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 11:27:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:57 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 11:27:58 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 11:27:58 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 11:27:59 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 11:27:59 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:27:59 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:27:59 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:00 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 11:28:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:00 - INFO - Campo input 24 preenchido com 'PEDRO HENRIQUE VITORINO DOS SANTOS'
+2025-06-27 11:28:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:00 - INFO - Campo input 25 preenchido com '50355992809'
+2025-06-27 11:28:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:00 - INFO - Campo input 26 preenchido com '(13) 99209-4565'
+2025-06-27 11:28:00 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:01 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]'
+2025-06-27 11:28:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:01 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 11:28:01 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:28:01 - INFO - Verificando Remoto para localizar em combox
+2025-06-27 11:32:15 - INFO - Carregando informações de configurações iniciais
+2025-06-27 11:32:15 - INFO - Iniciando leitura do arquivo 'XML' para captura das informações
+2025-06-27 11:32:15 - INFO - Finalizando leitura do arquivo 'XML' e retornando valores coletados
+2025-06-27 11:32:15 - INFO - Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados
+2025-06-27 11:32:15 - INFO - Abrindo o arquivo Excel para realizar a leitura das informações
+2025-06-27 11:32:15 - INFO - Abrindo o arquivo Excel com sheet nomeada em PT-BR
+2025-06-27 11:32:15 - WARNING - Erro - Worksheet named 'Plan1' not found - Abrindo o arquivo Excel com sheet nomeada em Ingles
+2025-06-27 11:32:15 - INFO - Separando colunas com datas a serem formatadas '['T', 'AC', 'AG', 'AN']'
+2025-06-27 11:32:15 - INFO - Formatando as colunas de data no formato dd/mm/yyyy e tratando valores nulos
+2025-06-27 11:32:15 - INFO - Iterando sobre as linhas e processando as que contêm 'Elaborar' na coluna A
+2025-06-27 11:32:15 - INFO - Processando linha 57: Unnamed: 0                              Elaborar
+Unnamed: 1                       Marcio Oliveira
+Unnamed: 2           marcio.oliveira@meta.com.br
+Unnamed: 3                        Henry Monteiro
+Unnamed: 4     henry.monteiro@portoseguro.com.br
+                             ...                
+Unnamed: 61                      Marcio Oliveira
+Unnamed: 62                         18.302.499-0
+Unnamed: 63                  2025-06-25 00:00:00
+Unnamed: 64                                  NaN
+Unnamed: 65                                  NaN
+Name: 57, Length: 66, dtype: object
+2025-06-27 11:32:15 - INFO - Criando o dicionário com valores das colunas B a AM (colunas 1 a 38)
+2025-06-27 11:32:15 - INFO - Dados coletados: {'Unnamed: 1': 'Marcio Oliveira', 'Unnamed: 2': 'marcio.oliveira@meta.com.br', 'Unnamed: 3': 'Henry Monteiro', 'Unnamed: 4': 'henry.monteiro@portoseguro.com.br', 'Unnamed: 5': 'Henrique Sardelli', 'Unnamed: 6': 'henrique.sardelli@meta.com.br', 'Unnamed: 7': 'DALTON LUIZ ELERES DE OLIVEIRA', 'Unnamed: 8': 'dalton.oliveira@portoseguro.com.br ', 'Unnamed: 9': 'FERNANDO HENRIQUE CAMILLO', 'Unnamed: 10': 'fernando.camillo@portoseguro.com.br', 'Unnamed: 11': 'VICENTE VEIGA CAZAROTTI', 'Unnamed: 12': 'vicente.cazarotti@portoseguro.com.br', 'Unnamed: 13': 'META', 'Unnamed: 14': 'Marcio Oliveira', 'Unnamed: 15': 'marcio.oliveira@meta.com.br', 'Unnamed: 16': 'META_20250305-03', 'Unnamed: 17': 'TI-PRT-125/2013-R7', 'Unnamed: 18': 1, 'Unnamed: 19': datetime.datetime(2025, 6, 25, 0, 0), 'Unnamed: 20': 'Proposta com o novo ratecard para 2025', 'Unnamed: 21': 'Marcio Oliveira', 'Unnamed: 22': 'Dalton Luiz Eleres de Oliveira', 'Unnamed: 23': 'PEDRO HENRIQUE VITORINO DOS SANTOS', 'Unnamed: 24': 50355992809, 'Unnamed: 25': '(13)\xa099209-4565', 'Unnamed: 26': '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]', 'Unnamed: 27': nan, 'Unnamed: 28': datetime.datetime(2025, 7, 11, 0, 0), 'Unnamed: 29': 'Remoto', 'Unnamed: 30': 11, 'Unnamed: 31': 30, 'Unnamed: 32': datetime.datetime(2026, 7, 11, 0, 0), 'Unnamed: 33': 'De acordo com a necessidade da área para o tipo de perfil alocado', 'Unnamed: 34': 'Não', 'Unnamed: 35': nan, 'Unnamed: 36': nan, 'Unnamed: 37': nan, 'Unnamed: 38': 'Não', 'Unnamed: 39': nan, 'Unnamed: 40': nan, 'Unnamed: 41': nan, 'Unnamed: 42': nan, 'Unnamed: 43': nan, 'Unnamed: 44': nan, 'Unnamed: 45': nan, 'Unnamed: 46': nan, 'Unnamed: 47': nan, 'Unnamed: 48': nan, 'Unnamed: 49': nan, 'Unnamed: 50': nan, 'Unnamed: 51': nan, 'Unnamed: 52': nan, 'Unnamed: 53': nan, 'Unnamed: 54': nan, 'Unnamed: 55': nan, 'Unnamed: 56': nan, 'Unnamed: 57': nan, 'Unnamed: 58': nan, 'Unnamed: 59': nan, 'Unnamed: 60': 'Disponível no Mercado', 'Unnamed: 61': 'Marcio Oliveira', 'Unnamed: 62': '18.302.499-0', 'Unnamed: 63': datetime.datetime(2025, 6, 25, 0, 0)}
+2025-06-27 11:32:15 - INFO - Iniciando Chrome e acessando URL
+2025-06-27 11:32:15 - INFO - Garantindo que a pasta exista
+2025-06-27 11:32:15 - INFO - Configurando as preferências para o Chrome
+2025-06-27 11:32:15 - INFO - Configurando opções do Chrome
+2025-06-27 11:32:15 - INFO - Criando instância do navegador
+2025-06-27 11:32:15 - INFO - ====== WebDriver manager ======
+2025-06-27 11:32:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:32:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 11:32:20 - INFO - Driver [C:\Users\diogo.cardoso\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 11:32:21 - INFO - Acessando o site
+2025-06-27 11:32:36 - INFO - Iniciando Inserção de informações na primeira parte do documento
+2025-06-27 11:32:36 - INFO - Preenchendo Fornecedor
+2025-06-27 11:32:37 - INFO - Preenchendo Analista Observador
+2025-06-27 11:32:37 - INFO - Preenchendo Fornecedor Observador
+2025-06-27 11:32:37 - INFO - Preenchendo Gestor1
+2025-06-27 11:32:38 - INFO - Preenchendo Gestor2
+2025-06-27 11:32:39 - INFO - Preenchendo Gestor3
+2025-06-27 11:32:39 - INFO - Clicando no botão iniciar
+2025-06-27 11:32:39 - INFO - Verificando se existe popup na tela e clicando para fechar
+2025-06-27 11:32:39 - INFO - Tentando localizar o elemento
+2025-06-27 11:32:48 - INFO - Elemento encontrado, retornando 'True'
+2025-06-27 11:32:53 - INFO - Iniciando Inserção de informações na segundo parte do documento e geração do arquivo PDF
+2025-06-27 11:32:53 - INFO - Iniciando segunda parte do preencimento
+2025-06-27 11:32:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:53 - INFO - Campo input 0 preenchido com 'META'
+2025-06-27 11:32:53 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:54 - INFO - Campo input 1 preenchido com 'Marcio Oliveira'
+2025-06-27 11:32:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:54 - INFO - Campo input 2 preenchido com 'marcio.oliveira@meta.com.br'
+2025-06-27 11:32:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:54 - INFO - Campo input 4 preenchido com 'META_20250305-03'
+2025-06-27 11:32:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:54 - INFO - Campo input 5 preenchido com 'TI-PRT-125/2013-R7'
+2025-06-27 11:32:54 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:55 - INFO - Campo input 6 preenchido com '1'
+2025-06-27 11:32:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:55 - INFO - Campo input 7 preenchido com '25/06/2025'
+2025-06-27 11:32:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:55 - INFO - Campo input 8 preenchido com 'Proposta com o novo ratecard para 2025'
+2025-06-27 11:32:55 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:55 - INFO - Campo input 9 preenchido com 'Marcio Oliveira'
+2025-06-27 11:32:56 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 11:32:56 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 11:32:57 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 11:32:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:57 - WARNING - Erro ao preencher campo 22: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:32:57 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:58 - INFO - Campo input 23 preenchido com 'Dalton Luiz Eleres de Oliveira'
+2025-06-27 11:32:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:58 - INFO - Campo input 24 preenchido com 'PEDRO HENRIQUE VITORINO DOS SANTOS'
+2025-06-27 11:32:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:58 - INFO - Campo input 25 preenchido com '50355992809'
+2025-06-27 11:32:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:58 - INFO - Campo input 26 preenchido com '(13) 99209-4565'
+2025-06-27 11:32:58 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:59 - INFO - Campo input 27 preenchido com '[TI-PRT-125/2013-R6]::B.6. Tester::[B.6.3. Junior]'
+2025-06-27 11:32:59 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:59 - INFO - Campo input 28 preenchido com '11/07/2025'
+2025-06-27 11:32:59 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:32:59 - INFO - Verificando o valor 'Remoto' para localizar em combox
+2025-06-27 11:34:08 - INFO - Valor mantido para a seleção - Remoto
+2025-06-27 11:34:08 - INFO - Campo select 29 preenchido com 'Remoto'
+2025-06-27 11:34:08 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:08 - INFO - Campo select 30 preenchido com '11 Meses'
+2025-06-27 11:34:08 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:08 - INFO - Campo select 31 preenchido com '30 dias'
+2025-06-27 11:34:08 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:09 - INFO - Campo input 32 preenchido com 'De acordo com a necessidade da área para o tipo de perfil alocado'
+2025-06-27 11:34:09 - INFO - Proceurando botões 'Rubricar'
+2025-06-27 11:34:09 - INFO - Encontrados 2 botões 'Rubricar'.
+2025-06-27 11:34:09 - INFO - Botão 2 clicado com sucesso.
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - WARNING - Erro ao preencher campo 33: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - INFO - Campo select 34 preenchido com 'NÃO'
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - INFO - Campo select 38 preenchido com 'NÃO'
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - INFO - Campo input 45 preenchido com ''
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - INFO - Campo input 51 preenchido com ''
+2025-06-27 11:34:10 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:10 - INFO - Verificando o valor 'Disponível no Mercado' para localizar em combox
+2025-06-27 11:34:27 - INFO - Valor encontrado após verificação - Disponível no mercado
+2025-06-27 11:34:36 - INFO - Campo select 57 preenchido com 'Disponível no mercado'
+2025-06-27 11:34:36 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:36 - WARNING - Erro ao preencher campo 58: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:34:36 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:36 - INFO - Campo input 59 preenchido com 'Disponível no mercado'
+2025-06-27 11:34:36 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:37 - INFO - Campo input 60 preenchido com 'Disponível no mercado'
+2025-06-27 11:34:37 - INFO - Procurando botões 'Assinar'
+2025-06-27 11:34:37 - INFO - Encontrados 1 botões 'Assinar'.
+2025-06-27 11:34:37 - INFO - Botão 1 clicado com sucesso.
+2025-06-27 11:34:38 - INFO - Verificando se o campo é <select> e realizando tratamento no texto para correta seleção
+2025-06-27 11:34:38 - WARNING - Erro ao preencher campo 61: Message: invalid element state
+  (Session info: chrome=132.0.6834.111)
+Stacktrace:
+	GetHandleVerifier [0x004574A3+25091]
+	(No symbol) [0x003DDC04]
+	(No symbol) [0x002BB1E9]
+	(No symbol) [0x002F6DA3]
+	(No symbol) [0x00321F0C]
+	(No symbol) [0x002F4E44]
+	(No symbol) [0x003221A4]
+	(No symbol) [0x0033B49E]
+	(No symbol) [0x00321CA6]
+	(No symbol) [0x002F31D5]
+	(No symbol) [0x002F435D]
+	GetHandleVerifier [0x007507C3+3142947]
+	GetHandleVerifier [0x00761A2B+3213195]
+	GetHandleVerifier [0x0075C412+3191154]
+	GetHandleVerifier [0x004F8720+685184]
+	(No symbol) [0x003E6E1D]
+	(No symbol) [0x003E3E18]
+	(No symbol) [0x003E3FB6]
+	(No symbol) [0x003D66F0]
+	BaseThreadInitThunk [0x77215D49+25]
+	RtlInitializeExceptionChain [0x77DED03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77DECFC1+561]
+
+2025-06-27 11:34:38 - INFO - Clicando no botão concluir
+2025-06-27 11:34:38 - INFO - Fechando o chrome

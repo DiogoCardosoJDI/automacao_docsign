@@ -13,6 +13,7 @@ def ler_xml():
         
         for arquivo_entrada in root.findall('arquivo_entrada'):
            excel = arquivo_entrada.find('excel').text
+           excel_novo = arquivo_entrada.find('excel_novo').text
            sheet = arquivo_entrada.find('sheet').text
            sheet_ingles = arquivo_entrada.find('sheet_ingles').text
 
@@ -21,7 +22,7 @@ def ler_xml():
            
         logger.info("Finalizando leitura do arquivo 'XML' e retornando valores coletados")
 
-        return url, excel, sheet, sheet_ingles, pasta_download
+        return url, excel, excel_novo, sheet, sheet_ingles, pasta_download
 
     except ET.ParseError as e:
         logger.info(f"Erro ao parsear o XML: {e}")

@@ -27,10 +27,10 @@ logger = logging.getLogger(__name__)
 
 try:
     logger.info("Carregando informações de configurações iniciais")
-    url, caminho_arquivo_excel, nome_sheet, sheet_ingles, pasta_download = carrega_config.ler_xml()
+    url, caminho_arquivo_excel, caminho_arquivo_excel_novo, nome_sheet, sheet_ingles, pasta_download = carrega_config.ler_xml()
 
     logger.info("Iniciando leitura do arquivo Excel para verificação de contratos a serem gerados")
-    leitura_excel.ler_excel_e_inserir_dados(caminho_arquivo_excel, nome_sheet, sheet_ingles, url, pasta_download)
+    leitura_excel.ler_excel_e_inserir_dados(caminho_arquivo_excel, caminho_arquivo_excel_novo, nome_sheet, sheet_ingles, url, pasta_download)
     
 except Exception as e:
     logger.error(f"Erro durante o processamento - {e}")

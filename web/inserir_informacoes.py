@@ -1,6 +1,8 @@
+import re
 import logging
-from time import sleep
+import unicodedata
 import pandas as pd
+from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -85,6 +87,7 @@ def gerar_documento_2(chrome, dados):
     try:
         logger.info("Iniciando segunda parte do preencimento")
         campos = chrome.find_elements(By.XPATH, "//*[starts-with(@id, 'tab-form-element')]")
+        opcoes = ['Disponível no mercado', 'Outra consultoria que atua na Porto', 'Outra consultoria que não atua na Porto', 'Dentro da própria consultoria em outro cliente/projeto']
         ref_valor = 13
         cont = 0
         passou = False
@@ -196,8 +199,15 @@ def gerar_documento_2(chrome, dados):
                                 pular_proximas = True
                             else:
                                 pular_proximas = False
-                    elif ref_valor == 60:
-                        valor_input = valor_input.replace(' / ' , '/').replace('  ', ' ')
+                    else:
+                        logger.info(f"Verificando o valor '{valor_input}' para localizar em combox")
+                        verificacao = encontrar_equivalente(valor_input, opcoes)
+                        if verificacao:
+                            valor_input = verificacao
+                            logger.info(f"Valor encontrado após verificação - {valor_input}")
+                        else:
+                            logger.info(f"Valor mantido para a seleção - {valor_input}")
+
                     try:
                         select = Select(campo)
                         select.select_by_visible_text(valor_input)
@@ -246,8 +256,7 @@ def gerar_documento_2(chrome, dados):
         #btn_concluir.click()
 
         logger.info("Fechando o chrome")
-        chrome.quit()
-        return chrome
+        chrome.quit()        
 
     except Exception as e:
         logger.error(f"Erro: {e}")
@@ -263,4 +272,27 @@ def verificar_elemento_existe(chrome, xpath):
         return True  
     except NoSuchElementException:
         logger.error("Elemento não encontrado, retornando 'False'")
-        return False  
+        return False
+
+
+def igualar_texto(texto):
+    #Remove acentuação
+    texto = ''.join(
+        c for c in unicodedata.normalize('NFD', texto)
+        if unicodedata.category(c) != 'Mn'
+    )
+    #Converte para minúsculas
+    texto = texto.lower()
+    #Remove espaços antes/depois de barras e outros símbolos comuns
+    texto = re.sub(r'\s*/\s*', '/', texto)
+    #Remove espaços duplicados
+    texto = re.sub(r'\s+', ' ', texto).strip()
+    return texto
+
+def encontrar_equivalente(referencia, opcoes):
+    referencia_normalizada = igualar_texto(referencia)
+    for opcao in opcoes:
+        if igualar_texto(opcao) == referencia_normalizada:
+            #Retorna a opção original
+            return opcao
+    return None
