@@ -24,7 +24,6 @@ def abrir_chrome(url, pasta_download):
         "safebrowsing.enable":True,
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
-        "safebrowsing.enabled": True,
         "intl.accept_languages": 'pt-BR'
     }
 

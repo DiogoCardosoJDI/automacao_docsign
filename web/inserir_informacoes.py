@@ -257,7 +257,7 @@ def gerar_documento_2(chrome, dados):
 
         logger.info("Clicando no botão concluir")
         try:
-            logger.error(f"Clicando no botao concluir como objeto: {e}")
+            logger.error(f"Clicando no botao concluir como objeto")
             btn_concluir = WebDriverWait(chrome, timeout).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@id="end-of-document-btn-finish"]')))
             btn_concluir.click()
@@ -268,7 +268,7 @@ def gerar_documento_2(chrome, dados):
             btn_concluir[0].click()
         
         try:
-            logger.error(f"Clicar no botao baixar como objeto: {e}")
+            logger.error(f"Clicar no botao baixar como objeto")
             btn_baixar = WebDriverWait(chrome, timeout).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@id="ModalContainer"]/div[2]/div[2]/div/div/div[3]/button[1]')))
             btn_baixar.click()

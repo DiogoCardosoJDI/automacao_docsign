@@ -1,10 +1,15 @@
 import os
 import logging
+from datetime import datetime
 from files import leitura_excel
 from carregar_configuracao import carrega_config
 
-def configurar_logging(nome_arquivo_log="app.log", nivel=logging.INFO):
+def configurar_logging(nome_arquivo_log=None, nivel=logging.INFO):
     os.makedirs("logs", exist_ok=True)  # Cria pasta se não existir
+
+    if nome_arquivo_log is None:
+        timestamp = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+        nome_arquivo_log = f"{timestamp}.log"
 
     caminho_log = os.path.join("logs", nome_arquivo_log)
 
@@ -15,13 +20,11 @@ def configurar_logging(nome_arquivo_log="app.log", nivel=logging.INFO):
         datefmt="%Y-%m-%d %H:%M:%S",
         filemode='a'  # ou 'w' para sobrescrever cada vez
     )
-
     # Também mostra no terminal:
     console = logging.StreamHandler()
     console.setLevel(nivel)
     console.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
     logging.getLogger().addHandler(console)
-
 configurar_logging()
 logger = logging.getLogger(__name__)
 
